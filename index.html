@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forward College Financial Aid Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- OPENING PAGE -->
+
+    <div class="page-container">
+        <div class="navigation">
+            <button class="navigation-btn fillInLeft" name="question-0" data-next="0"></button>
+            <button class="navigation-btn fillInLeft" name="question-1" data-next="1"></button>
+            <button class="navigation-btn fillInLeft" name="question-2" data-next="2"></button>
+            <button class="navigation-btn fillInLeft" name="question-3" data-next="3"></button>
+            <button class="navigation-btn fillInLeft" name="question-4" data-next="4"></button>
+            <button class="navigation-btn fillInLeft" name="question-5" data-next="5"></button>
+            <button class="navigation-btn fillInLeft" name="question-6" data-next="6"></button>
+            <button class="navigation-btn fillInLeft" name="question-7" data-next="7"></button>
+            <button class="navigation-btn fillInLeft" name="question-8" data-next="8"></button>
+            <button class="navigation-btn fillInLeft" name="question-9" data-next="9"></button>
+            <button class="navigation-btn fillInLeft" name="question-10" data-next="10"></button>
+            <button class="navigation-btn fillInLeft" name="question-11" data-next="11"></button>
+            <button class="navigation-btn fillInLeft" name="question-12" data-next="12"></button>
+            <button class="navigation-btn fillInLeft" name="question-13" data-next="13"></button>
+            <button class="navigation-btn fillInLeft" name="question-14" data-next="14"></button>
+            <button class="navigation-btn fillInLeft" name="question-15" data-next="15"></button>
+            <button class="navigation-btn fillInLeft" name="question-16" data-next="16"></button>
+            <button class="navigation-btn fillInLeft" name="question-16" data-next="17"></button>
+
+        </div>
+        <div id="question-0" class="page opening-page active">
+            <h1 class="page-title">Find the Bachelor’s that suits you best</h1>
+            <p class="timer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27.465" height="30.967" viewBox="0 0 27.465 30.967">
+                    <g id="TIMER_PICTO" data-name="TIMER PICTO" transform="translate(0.25 0.25)">
+                        <g id="Groupe_18402" data-name="Groupe 18402">
+                            <path id="Tracé_1023" data-name="Tracé 1023"
+                                d="M25.9,11.737A13.472,13.472,0,0,0,14.322,3.528a.3.3,0,0,0,.018-.1V1.767a.292.292,0,0,0-.006-.055h2.353a.83.83,0,0,0,.829-.829V.829A.83.83,0,0,0,16.688,0H10.277a.83.83,0,0,0-.829.829V.883a.83.83,0,0,0,.829.829h2a.292.292,0,0,0-.006.055V3.428a.3.3,0,0,0,.028.126A13.479,13.479,0,0,0,3.949,26.518,13.486,13.486,0,0,0,25.9,11.737m-12.423,17.1A11.847,11.847,0,1,1,25.33,16.985,11.861,11.861,0,0,1,13.482,28.832"
+                                transform="translate(0)" fill="#e85e34" stroke="#e85e34" stroke-width="0.5"></path>
+                            <path id="Tracé_1024" data-name="Tracé 1024"
+                                d="M374.321,293.718a.864.864,0,0,0,.433-.273l5.113-5.973a.868.868,0,0,0-.095-1.224l-.05-.043a.868.868,0,0,0-1.224.095l-4.556,5.321"
+                                transform="translate(-360.603 -275.795)" fill="#e85e34" stroke="#e85e34"
+                                stroke-width="0.5"></path>
+                            <path id="Tracé_1025" data-name="Tracé_1025"
+                                d="M351.137,245.045a.864.864,0,0,0-.154.488l-.041,7.862a.868.868,0,0,0,.863.872h.066a.868.868,0,0,0,.872-.863l.036-7"
+                                transform="translate(-338.423 -236.303)" fill="#e85e34" stroke="#e85e34"
+                                stroke-width="0.5"></path>
+                            <path id="Tracé_1026" data-name="Tracé_1026"
+                                d="M354.494,238.843v-6.976a.868.868,0,0,0-.868-.868h-.066a.868.868,0,0,0-.868.868v7.863a.868.868,0,0,0,.455.764"
+                                transform="translate(-340.11 -222.76)" fill="#e85e34" stroke="#e85e34"
+                                stroke-width="0.5"></path>
+                        </g>
+                    </g>
+                </svg>3 minutes
+            </p>
+            <p class="page-description">Want to find out which of our Bachelor’s would best suit you? This quiz will
+                guide you to the answer. Let’s get started!</p>
+            <label class="btn control-btn fillInLeft">
+                <input class="radio-input" type="radio" value="start" name="question-0" data-current="0"
+                    data-next="1">Start
+            </label>
+        </div>
+
+        <div id="question-1" class="page question-page">
+            <p class="question-number">Question N° 1</p>
+            <p class="question">I’d love to understand how business works</p>
+            <div class="options-div">
+                <form id="question-1-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-1" data-current="1" data-next="2"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-1" data-current="1" data-next="2"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-1" data-current="1" data-next="2"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-1" data-current="1" data-next="2"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-1" data-current="1" data-next="2"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-2" class="page question-page">
+            <p class="question-number">Question N° 2</p>
+            <p class="question">I am curious about current affairs throughout the world</p>
+            <div class="options-div">
+                <form id="question-2-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-2" data-current="2" data-next="3"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-2" data-current="2" data-next="3"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-2" data-current="2" data-next="3"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-2" data-current="2" data-next="3"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-2" data-current="2" data-next="3"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-3" class="page question-page">
+            <p class="question-number">Question N° 3</p>
+            <p class="question">I love to understand how people behave</p>
+            <div class="options-div">
+                <form id="question-3-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-3" data-current="3" data-next="4"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-3" data-current="3" data-next="4"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-3" data-current="3" data-next="4"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-3" data-current="3" data-next="4"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-3" data-current="3" data-next="4"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-4" class="page question-page">
+            <p class="question-number">Question N° 4</p>
+            <p class="question">I am passionate about politics</p>
+            <div class="options-div">
+                <form id="question-4-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-4" data-current="4" data-next="5"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-4" data-current="4" data-next="5"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-4" data-current="4" data-next="5"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-4" data-current="4" data-next="5"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-4" data-current="4" data-next="5"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-5" class="page question-page">
+            <p class="question-number">Question N° 5</p>
+            <p class="question">I’d like to work in Government, NGOs, or international organisations</p>
+            <div class="options-div">
+                <form id="question-5-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-5" data-current="5" data-next="6"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-5" data-current="5" data-next="6"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-5" data-current="5" data-next="6"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-5" data-current="5" data-next="6"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-5" data-current="5" data-next="6"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="question-6" class="page question-page">
+            <p class="question-number">Question N° 6</p>
+            <p class="question">I’d rather work in the business or the private sector</p>
+            <div class="options-div">
+                <form id="question-6-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-6" data-current="6" data-next="7"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-6" data-current="6" data-next="7"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-6" data-current="6" data-next="7"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-6" data-current="6" data-next="7"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-6" data-current="6" data-next="7"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="question-7" class="page question-page">
+            <p class="question-number">Question N° 7</p>
+            <p class="question">I’d like to work in technology</p>
+            <div class="options-div">
+                <form id="question-7-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-7" data-current="7" data-next="8"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-7" data-current="7" data-next="8"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-7" data-current="7" data-next="8"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-7" data-current="7" data-next="8"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-7" data-current="7" data-next="8"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-8" class="page question-page">
+            <p class="question-number">Question N° 8</p>
+            <p class="question">I am strong in maths</p>
+            <div class="options-div">
+                <form id="question-8-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-8" data-current="8" data-next="9"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-8" data-current="8" data-next="9"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-8" data-current="8" data-next="9"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-8" data-current="8" data-next="9"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-8" data-current="8" data-next="9"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="question-9" class="page question-page">
+            <p class="question-number">Question N° 9</p>
+            <p class="question">I’m strong in non-scientific subjects</p>
+            <div class="options-div">
+                <form id="question-9-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-9" data-current="9" data-next="10"
+                                class="option-btn radio-input" type="radio" value="strongly-agree">Strongly
+                            Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-9" data-current="9" data-next="10"
+                                class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-9" data-current="9" data-next="10"
+                                class="option-btn radio-input" type="radio" value="neither">Neither agree nor
+                            disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-9" data-current="9" data-next="10"
+                                class="option-btn radio-input" type="radio" value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-9" data-current="9" data-next="10"
+                                class="option-btn radio-input" type="radio" value="strongly-disagree">Strongly
+                            Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-10" class="page question-page">
+            <p class="question-number">Question N° 10</p>
+            <p class="question">I want my studies to help me understand and influence others’ behaviors</p>
+            <div class="options-div">
+                <form id="question-10-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-10" data-current="10"
+                                data-next="11" class="option-btn radio-input" type="radio"
+                                value="strongly-agree">Strongly Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-10" data-current="10"
+                                data-next="11" class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-10" data-current="10"
+                                data-next="11" class="option-btn radio-input" type="radio" value="neither">Neither agree
+                            nor disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-10" data-current="10"
+                                data-next="11" class="option-btn radio-input" type="radio"
+                                value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-10" data-current="10"
+                                data-next="11" class="option-btn radio-input" type="radio"
+                                value="strongly-disagree">Strongly Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="question-11" class="page question-page">
+            <p class="question-number">Question N° 11</p>
+            <p class="question">I’d like to keep on studying a variety of subjects</p>
+            <div class="options-div">
+                <form id="question-11-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-11" data-current="11"
+                                data-next="12" class="option-btn radio-input" type="radio"
+                                value="strongly-agree">Strongly Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-11" data-current="11"
+                                data-next="12" class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-11" data-current="11"
+                                data-next="12" class="option-btn radio-input" type="radio" value="neither">Neither agree
+                            nor disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-11" data-current="11"
+                                data-next="12" class="option-btn radio-input" type="radio"
+                                value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-11" data-current="11"
+                                data-next="12" class="option-btn radio-input" type="radio"
+                                value="strongly-disagree">Strongly Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-12" class="page question-page">
+            <p class="question-number">Question N° 12</p>
+            <p class="question">I am prepared to study ten hours a day (including time spent in class), and also study over the weekend</p>
+            <div class="options-div">
+                <form id="question-12-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-12" data-current="12"
+                                data-next="13" class="option-btn radio-input" type="radio"
+                                value="strongly-agree">Strongly Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-12" data-current="12"
+                                data-next="13" class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-12" data-current="12"
+                                data-next="13" class="option-btn radio-input" type="radio" value="neither">Neither agree
+                            nor disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-12" data-current="12"
+                                data-next="13" class="option-btn radio-input" type="radio"
+                                value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-12" data-current="12"
+                                data-next="13" class="option-btn radio-input" type="radio"
+                                value="strongly-disagree">Strongly Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="question-13" class="page question-page">
+            <p class="question-number">Question N° 13</p>
+            <p class="question">I am well-organized and disciplined when it comes to studying</p>
+            <div class="options-div">
+                <form id="question-13-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-13" data-current="13"
+                                data-next="14" class="option-btn radio-input" type="radio"
+                                value="strongly-agree">Strongly Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-13" data-current="13"
+                                data-next="14" class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-13" data-current="13"
+                                data-next="14" class="option-btn radio-input" type="radio" value="neither">Neither agree
+                            nor disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-13" data-current="13"
+                                data-next="14" class="option-btn radio-input" type="radio"
+                                value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-13" data-current="13"
+                                data-next="14" class="option-btn radio-input" type="radio"
+                                value="strongly-disagree">Strongly Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="question-14" class="page question-page">
+            <p class="question-number">Question N° 14</p>
+            <p class="question">My future earning potential is a strong driver in my motivation to study</p>
+            <div class="options-div">
+                <form id="question-14-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-14" data-current="14"
+                                data-next="15" class="option-btn radio-input" type="radio"
+                                value="strongly-agree">Strongly Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-14" data-current="14"
+                                data-next="15" class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-14" data-current="14"
+                                data-next="15" class="option-btn radio-input" type="radio" value="neither">Neither agree
+                            nor disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-14" data-current="14"
+                                data-next="15" class="option-btn radio-input" type="radio"
+                                value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-14" data-current="14"
+                                data-next="15" class="option-btn radio-input" type="radio"
+                                value="strongly-disagree">Strongly Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-15" class="page question-page">
+            <p class="question-number">Question N° 15</p>
+            <p class="question">I am still unsure what is my preferred subject and I'd like to keep my options open</p>
+            <div class="options-div">
+                <form id="question-15-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-15" data-current="15"
+                                data-next="16" class="option-btn radio-input" type="radio"
+                                value="strongly-agree">Strongly Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-15" data-current="15"
+                                data-next="16" class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-15" data-current="15"
+                                data-next="16" class="option-btn radio-input" type="radio" value="neither">Neither agree
+                            nor disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-15" data-current="15"
+                                data-next="16" class="option-btn radio-input" type="radio"
+                                value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-15" data-current="15"
+                                data-next="16" class="option-btn radio-input" type="radio"
+                                value="strongly-disagree">Strongly Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-16" class="page question-page">
+            <p class="question-number">Question N° 16</p>
+            <p class="question">I’d like to couple academic learning with real-life projects to develop my skills for my future career</p>
+            <div class="options-div">
+                <form id="question-16-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-16" data-current="16"
+                                data-next="17" class="option-btn radio-input" type="radio"
+                                value="strongly-agree">Strongly Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-16" data-current="16"
+                                data-next="17" class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-16" data-current="16"
+                                data-next="17" class="option-btn radio-input" type="radio" value="neither">Neither agree
+                            nor disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-16" data-current="16"
+                                data-next="17" class="option-btn radio-input" type="radio"
+                                value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-16" data-current="16"
+                                data-next="17" class="option-btn radio-input" type="radio"
+                                value="strongly-disagree">Strongly Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-17" class="page question-page">
+            <p class="question-number">Question N° 17</p>
+            <p class="question">I’d like to couple academic learning with real-life projects to develop my skills for my future career</p>
+            <div class="options-div">
+                <form id="question-17-form" class="options-form">
+                    <div class="options-row-1">
+                        <label class="option-label fillInLeft"><input name="question-17" data-current="17"
+                                data-next="18" class="option-btn radio-input" type="radio"
+                                value="strongly-agree">Strongly Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-17" data-current="17"
+                                data-next="18" class="option-btn radio-input" type="radio" value="agree">Agree</label>
+                        <label class="option-label fillInLeft"><input name="question-17" data-current="17"
+                                data-next="18" class="option-btn radio-input" type="radio" value="neither">Neither agree
+                            nor disagree</label>
+                    </div>
+                    <div class="options-row-2">
+                        <label class="option-label fillInLeft"><input name="question-17" data-current="17"
+                                data-next="18" class="option-btn radio-input" type="radio"
+                                value="disagree">Disagree</label>
+                        <label class="option-label fillInLeft"><input name="question-17" data-current="17"
+                                data-next="18" class="option-btn radio-input" type="radio"
+                                value="strongly-disagree">Strongly Disagree</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="question-18" class="page last-page">
+            <p class="last">Thank you for answering all the questions.</p>
+            <p class="header header-form">Fill in this form to discover your result!</p>
+
+
+            <form class="lead-capture">
+                <div class="row">
+                    <div class="column">
+                        <label for="first-name">First name *</label>
+                        <input type="text" id="lead-first-name" name="first-name" required>
+                    </div>
+                    <div class="column">
+                        <label for="last-name">Last name *</label>
+                        <input type="text" id="lead-last-name" name="last-name" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <label for="email">Email *</label>
+                        <input type="email" id="lead-email" name="email" required>
+                        <div class="description">We’ll send you an email with the next steps.</div>
+                    </div>
+                    <div class="column">
+                        <label for="phone">Phone number</label>
+                        <div class="phone-input">
+                            <!--
+                        <select>
+                            <option value="+36">🇭🇺 +36</option>
+                        
+                        </select>
+                         -->
+                            <input type="number" id="lead-phone" name="phone">
+                        </div>
+                        <div class="description">You don’t have to provide your phone number, but if you decide to apply
+                            and would like to receive text updates, please feel free to share it.</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <label for="country" class="country-header">Country of residence *</label>
+                        <select id="lead-country" name="country" required>
+                            <option value="">Select an option</option>
+
+                        </select>
+                    </div>
+                    <div class="column">
+                        <label for="start-year">When are you considering to attend university? *</label>
+                        <select id="lead-start-year" name="start-year" required>
+                            <option value="">Select an option</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                            <option>2027 or later</option>
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row full-width">
+                    <label for="program">What programme are you interested in? *</label>
+                    <select id="lead-program" name="program" required>
+                        <option value="">Select an option</option>
+                        <option>Business & Management</option>
+                        <option>Economics</option>
+                        <option>Economics & Politics</option>
+                        <option>Economics & Management</option>
+                        <option>Politics & International Relations</option>
+                        <option>Data Science & Business Analytics</option>
+                        <option>Psychology</option>
+                        <option>Open Bachelor's</option>
+                        <option>A combination of subjects</option>
+                        <option>I don't know yet</option>
+
+                    </select>
+                </div>
+
+                <div class="row full-width checkbox-container">
+                    <div class="checkbox-with-label">
+                        <label id="lead-privacy-label"><input type="checkbox" id="lead-privacy" name="privacy">I accept
+                            the privacy policy.</label>
+                    </div>
+                    <label for="privacy">
+                        Please check this box if you consent to Forward College processing your data and sending
+                        personalised information. You can withdraw consent anytime through our unsubscribe process. Read
+                        our privacy policy <a href="https://forward-college.eu/privacy-policy/">here</a>.
+                    </label>
+                </div>
+                <label id="calculate-label" class="control-button fillInLeft">
+                    <input id="calculate-button" class="option-button  radio-input" type="radio" type="submit"
+                        value="calculate" name="question-17" data-current="17" data-next="18">Submit</label>
+            </form>
+        </div>
+
+        <div id="question-19" class="page question-page">
+            <p class="question-number">Your result</p>
+            <p id="result" class="question">Here is your result</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
